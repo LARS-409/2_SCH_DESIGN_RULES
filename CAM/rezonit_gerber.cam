@@ -217,7 +217,8 @@
                     "filename_format": "%N/brd.gbr",
                     "layers": [
                         20,
-                        45
+                        45,
+                        46
                     ],
                     "milling": false,
                     "name": "BRD",
