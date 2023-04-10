@@ -1,0 +1,308 @@
+{
+    "author": {
+        "email": "support.eagle@autodesk.com",
+        "name": "Autodesk EAGLE"
+    },
+    "description": {
+        "EN": "CAM job description goes here."
+    },
+    "output_type": "directory",
+    "outputs": [
+        {
+            "filename_prefix": "CAMOutputs/GerberFiles",
+            "format_specifier": {
+                "decimal": 4,
+                "integer": 3
+            },
+            "generate_job_file": true,
+            "output_type": "gerber",
+            "outputs": [
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "TOP",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%N/top.cmp",
+                    "layers": [
+                        1,
+                        17,
+                        18,
+                        20
+                    ],
+                    "milling": false,
+                    "name": "TOP1",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "BOT",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%N/bot.sol",
+                    "layers": [
+                        16,
+                        17,
+                        18,
+                        20
+                    ],
+                    "milling": false,
+                    "name": "BOT4",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Tstop",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%N/mt.stc",
+                    "layers": [
+                        29
+                    ],
+                    "milling": false,
+                    "name": "MT",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Bstop",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%N/mb.sts",
+                    "layers": [
+                        30
+                    ],
+                    "milling": false,
+                    "name": "MB",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Tcream",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%N/ct.gbc",
+                    "layers": [
+                        31
+                    ],
+                    "milling": false,
+                    "name": "CT",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Bcream",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%N/bt.gbc",
+                    "layers": [
+                        32
+                    ],
+                    "milling": false,
+                    "name": "CB",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "SilkTop",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%N/st.plc",
+                    "layers": [
+                        21,
+                        25
+                    ],
+                    "milling": false,
+                    "name": "ST",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "SilkBot",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%N/bt.pls",
+                    "layers": [
+                        22,
+                        26
+                    ],
+                    "milling": false,
+                    "name": "SB",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "BRD",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%N/brd.gbr",
+                    "layers": [
+                        20,
+                        45,
+                        46
+                    ],
+                    "milling": false,
+                    "name": "BRD",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "board_outline": false,
+                    "config": {
+                        "description": "Route2",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%N/in2.cmp",
+                    "layers": [
+                        2,
+                        17,
+                        18,
+                        20
+                    ],
+                    "milling": false,
+                    "name": "Inner2",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "board_outline": false,
+                    "config": {
+                        "description": "Route15",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%N/in3.sol",
+                    "layers": [
+                        15,
+                        17,
+                        18,
+                        20
+                    ],
+                    "milling": false,
+                    "name": "Inner3",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                }
+            ],
+            "version": "RS274X"
+        },
+        {
+            "filename_prefix": "CAMOutputs/DrillFiles",
+            "format_specifier": {
+                "decimal": 3,
+                "integer": 3
+            },
+            "output_type": "drill",
+            "outputs": [
+                {
+                    "drills": {
+                        "NPTH": true,
+                        "PTH": true,
+                        "VIA": true
+                    },
+                    "filename_format": "%N/drl.drd",
+                    "layers": {
+                        "from": 1,
+                        "to": 16
+                    },
+                    "name": "DRL",
+                    "type": "excellon"
+                }
+            ]
+        },
+        {
+            "filename_prefix": "CAMOutputs/Assembly",
+            "output_type": "assembly",
+            "outputs": [
+            ]
+        },
+        {
+            "filename_prefix": "CAMOutputs/DrawingFiles",
+            "output_type": "drawing",
+            "outputs": [
+            ]
+        }
+    ],
+    "timestamp": "2023-03-20T18:15:14",
+    "type": "EAGLE CAM job",
+    "units": "metric",
+    "version": "9.2.0"
+}
