@@ -1,0 +1,1 @@
+.wp-block-image :where(img){height:auto;width:100%}.wp-block-image{padding:0}.wp-block-image>:where(figcaption){display:block}.wp-block-image:not(.no-border) img{border:1px solid rgba(0,0,0,.1)}.wp-block-image figcaption{margin:undefined;margin:var(--spacing-2) 0 0}
